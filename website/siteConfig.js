@@ -13,7 +13,8 @@ const users = [];
 
 const siteConfig = {
     title: 'Syrsha Harvey', // Title for your website.
-    tagline: 'She/Her/Hers\nContinuously improving, aspiring technologist.',
+    pronouns: 'She/Her/Hers',
+    tagline: 'Continuously improving, aspiring technologist.',
     profilePhoto: 'img/profile1.JPG',
     url: 'https://syharvey.github.io', // Your website URL
     baseUrl: '/tech-portfolio/', // Base URL for your project */
