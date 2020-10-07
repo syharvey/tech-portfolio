@@ -68,6 +68,7 @@ class HomeSplash extends React.Component {
               <img src={siteConfig.profilePhoto} alt="My Profile Photo" width="40%" />
               <div className={styles.overlay}>
                 <div className={styles.textOverlay}>Hello World</div>
+              </div>
             </div>
           </PromoSection>
         </div>
