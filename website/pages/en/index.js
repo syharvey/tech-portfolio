@@ -5,6 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+import styles from "./myStyle.css";
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -64,7 +65,11 @@ class HomeSplash extends React.Component {
           <ProjectTitle tagline={siteConfig.pronouns} title={siteConfig.title} />
           <ProjectTitle tagline={siteConfig.tagline} />
           <PromoSection>
-          <img src={siteConfig.profilePhoto} alt="My Profile Photo" width="40%" />
+            <div className={styles.container}>
+              <img src={siteConfig.profilePhoto} alt="My Profile Photo" width="40%" />
+              <div className={styles.overlay}>
+                <div className={styles.textOverlay}>Hello World</div>
+            </div>
           </PromoSection>
         </div>
       </SplashContainer>
